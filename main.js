@@ -3,9 +3,9 @@
 "use strict";
 
 const express = require('express'), // express를 요청
-    layouts = require('express-views-layout'), 
-    homeController = require('./controllers/homeController'),
-    errorController = require('./controllers/errorController'),
+    layouts = require('express-ejs-layouts'), 
+    homeController = require('./Controller/homeController'),
+    errorController = require('./Controller/errorController'),
     app = express();
 
 app.set("port", process.env.PORT || 3000);

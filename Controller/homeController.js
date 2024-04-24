@@ -9,7 +9,7 @@ exports.showHome = (req, res) => {
     res.render("index");
 }
 exports.showCourses = (req, res) => { // 특정 라우트를 위한 콜백 함수 추가
-    res.render("courses");
+    res.render("transportation");
 };
 exports.showSignUp = (req, res) => {
     res.render("contact");
